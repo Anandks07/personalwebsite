@@ -1,0 +1,241 @@
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.7)),url(aboutme.png);
+    background-size: cover;  
+    background-position: center;
+    height: 80vh;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.text-1{
+    position: absolute;
+    width: 500px;
+    top:10%;
+    left:10%;
+    color: #f7f1ec;
+    font-family: 'Sofia';
+    font-size: 75px;
+}
+
+.text-2{
+    position: absolute;
+    width: 1500px;
+    top:50%;
+    left:85%;
+    color: #f7f1ec;
+    font-family: 'Sofia';
+    font-size:30px;
+    text-align: center;
+}
+
+body {
+  position: relative;
+  background-color:black!important;
+  color:white;
+  font-family:'Sofia';
+}
+
+
+.affix {
+  top: 20px;
+  z-index: 9999 !important;
+}
+div.col-sm-9 div {
+  width:930px;
+  font-size: 24px;
+}
+
+blockquote{
+  color:white;
+  font-size:24px;
+}
+
+#section1 {
+   color:#fff;
+   background-color: #640c56;
+   font-family:'BioRhyme';
+   text-align: right;
+}
+#section2 {
+  color: #fff;
+   background-color:#ff9800;
+   font-family:'BioRhyme';
+   text-align: left;
+}
+#section3 {
+  color:#fff;
+  background-color: #640c56;
+  font-family:'BioRhyme';
+  text-align: right;
+}
+#section4 {
+ color: #fff;
+  background-color:#ff9800;
+  font-family:'BioRhyme';
+  text-align: left;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width:767px){
+  #section1, #section2, #section3, #section4  {
+    margin-left: 2px;
+    padding: 1px 1px 1px 1px; 
+  }
+
+  div.col-sm-9 div {
+    width:600px;
+    font-size: 24px;
+  }
+
+  .text-1{
+    position: absolute;
+    width: 550px;
+    top:10%;
+    left:10%;
+    color: #f7f1ec;
+    font-family: 'Sofia';
+    font-size: 75px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #section1, #section2, #section3, #section4  {
+    margin-left: 2px;
+    padding: 1px 1px 1px 1px; 
+  }
+
+  div.col-sm-9 div {
+    width:400px;
+    font-size: 20px;
+  }
+
+
+  .text-1{
+    position: absolute;
+    width: 550px;
+    top:10%;
+    left:10%;
+    color: #f7f1ec;
+    font-family: 'Sofia';
+    font-size: 75px;
+  }
+
+}
+
+@media screen and (max-width: 767px) and (min-width:375px){
+  #section1, #section2, #section3, #section4  {
+    margin-left: 2px;
+    padding: 1px 1px 1px 1px; 
+  }
+
+  div.col-sm-9 div {
+    width:320px;
+    font-size: 20px;
+  }
+
+  div.col-sm-3 div {
+    width:0%
+  }
+
+  .row{
+    width:0px;
+    font-size: 0px;
+  }
+
+  body {
+    position: absolute;
+    background-color:black!important;
+    color:white;
+    font-family:'Sofia';
+  }
+
+  .text-1{
+    position: absolute;
+    width: 300px;
+    top:7%;
+    left:10%;
+    color: #f7f1ec;
+    font-family: 'Sofia';
+    font-size: 75px;
+  }
+
+  ul.nav-pills {
+    top: 15px;
+    position: relative;
+  }
+
+}
+
+@media screen and (max-width:374px){
+  #section1, #section2, #section3, #section4  {
+    margin-left: 2px;
+    padding: 1px 1px 1px 1px; 
+  }
+
+  div.col-sm-9 div {
+    width:300px;
+    font-size: 20px;
+  }
+
+  body {
+    position: absolute;
+    background-color:black!important;
+    color:white;
+    font-family:'Sofia';
+  }
+
+  .text-1{
+    position: absolute;
+    width: 50px;
+    top:5%;
+    left:10%;
+    color: #f7f1ec;
+    font-family: 'Sofia';
+    font-size: 40px;
+  }
+
+  ul.nav-pills {
+    top: 15px;
+    position: relative;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Sofia';
+    font-size: 10px;
+  }
+
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Sofia';
+  }
+
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 16px 20px;
+    text-decoration: underline black;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+  .footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    width:100hv;
+    font-family:'Sofia';
+  }
